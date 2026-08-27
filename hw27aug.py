@@ -16,7 +16,7 @@ print("Available amount after Savings: ", Availabe_Amount_After_SavingsAmount)
 
 print(" =========== MONTHLY SAVINGS REPORT =========== ")
 
-print(f"hi... "  {UserName} "!")
+print(f"hi... {UserName} !")
 print(f"Your Monthly Salary is: ", {monthlySalary})
 print(f"Your Monthly Rent is: ", {monthlyRent})
 print(f"Your Expenses on Food is: ", {ExpensesOnFood})
