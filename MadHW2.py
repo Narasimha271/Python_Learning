@@ -1,0 +1,22 @@
+print("\n\n---------Monthly Savings Calculator---------\n\n")
+print("Enter your details\n")
+name=input('Name: ')
+salary=input('Monthly Salary: ₹')
+salary_a=int(salary)
+rent=input('Monthly rent: ₹')
+rent_a=int(rent)
+food=input('Amount spent on food: ₹')
+food_a=int(food)
+savings=input('Amount you want to save: ₹')
+savings_a=int(savings)
+req=input('Requirements: ')
+
+postrent=(salary_a-rent_a)
+postfood=(postrent-food_a)
+postsavings=(postfood-savings_a)
+
+print(f'\n\n--------Monthly Savings--------\n\n')
+print(f'Hi {name}!\n\nYour monthly salary is: ₹{salary} \nYour rent is: ₹{rent} \nYour food expenses are: ₹{food} \nYou want to save: ₹{savings} \n\nAfter paying rent, you have: ₹{str(postrent)} \nAfter rent and food, you have ₹{str(postfood)} \nAfter saving ₹{savings}, you have ₹{str(postsavings)} remaining.')
+
+print('\n\n-----EXTRA CHALLENGE-----\n')
+print(name + ' wants to save ' + savings + ' this month.\n')
