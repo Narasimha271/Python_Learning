@@ -17,15 +17,15 @@ print("Available amount after Savings: ", Availabe_Amount_After_SavingsAmount)
 print(" =========== MONTHLY SAVINGS REPORT =========== ")
 
 print(f"hi... {UserName} !")
-print(f"Your Monthly Salary is: ", {monthlySalary})
-print(f"Your Monthly Rent is: ", {monthlyRent})
-print(f"Your Expenses on Food is: ", {ExpensesOnFood})
-print(f"Your Savings Amount is: ", {SavingsAmount})
-print(f"Available amount after rent is: ", {Available_Amount_After_Rent})
-print(f"Available amount after rent and food is: ", {Available_amount_after_Rent_and_Food})
-print(f"Available amount after Savings is: ", {Availabe_Amount_After_SavingsAmount})
+print(f"Your Monthly Salary is: ", monthlySalary)
+print(f"Your Monthly Rent is: ", monthlyRent)
+print(f"Your Expenses on Food is: ", ExpensesOnFood)
+print(f"Your Savings Amount is: ", SavingsAmount)
+print(f"Available amount after rent is: ", Available_Amount_After_Rent)
+print(f"Available amount after rent and food is: ", Available_amount_after_Rent_and_Food)
+print(f"Available amount after Savings is: ", Availabe_Amount_After_SavingsAmount)
 
-print(UserName + "wants to save the amount of  " + str(SavingsAmount) + " this month" )
+print(UserName + " wants to save the amount of " + str(SavingsAmount) + " this month" )
 
 print(" =========== MONTHLY SAVINGS REPORT =========== ")
 
