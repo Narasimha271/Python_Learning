@@ -52,5 +52,12 @@ print(Me[1])
 print(Me[-1])
 
 print(Me)
+Me.insert(len(Me), "Sep 02")
+print(Me)
 
+list1 = ["apples", "kiwi", "oranges"]
+list2 = ["carrots", 'potatoes', 'fish']
+list1.extend(list2)
+list2.extend(list2)
 
+print(list2)
