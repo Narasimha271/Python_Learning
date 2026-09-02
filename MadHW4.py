@@ -35,8 +35,10 @@ if marks >= 80:
     result= 'Excellent'
 elif marks >= 60:
     result= 'Good'
-else marks >= 40:
-    result= 'Fail'
+elif marks>=40: 
+    result= 'Pass'
+else:
+    result='Fail'
 
 print(f"----- Final Output -----\n\n")
 print(f"Name: {name} \nAge: {age} \nFavourite Subject: {fav_sub} \nMarks: {marks} \nResult: {result}\n")
