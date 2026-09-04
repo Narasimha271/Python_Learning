@@ -3,27 +3,28 @@ name=input('Name: ')
 day_num= int(input('What day of the week is it (between 1-7): '))
 stud_hours=int(input('How many hours are you planning to study (in hours): '))
 
-match day_num
-    day_num=1:
-    day=Monday
+match day_num : 
+    case 1:
+     day='Monday'
 
-    day_num=2:
-    day=Tuesday
+    case 2:
+     day='Tuesday'
 
-    day_num=3:
-    day=Wednesday
+    case 3:
+     day='Wednesday'
 
-    day_num=4:
-    day=Thursday
+    case 4:
+     day='Thursday'
 
-    day_num=5:
-    day=Friday
+    case 5:
+     day='Friday'
 
-    day_num=6:
-    day=Saturday
+    case 6:
+     day='Saturday'
 
-    day_num=7:
-    day=Sunday
+    case 7:
+     day='Sunday'
+
 
 #3. Study Subjects
 subs = ("UPSC, Python, Current Affairs, Revision")
