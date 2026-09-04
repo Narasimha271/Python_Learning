@@ -25,10 +25,13 @@ match day_num :
     case 7:
      day='Sunday'
 
+    case _ :
+     day='Invalid Day'
+
 
 #3. Study Subjects
-subs = ("UPSC, Python, Current Affairs, Revision")
-
+subs = ("UPSC", "Python", "Current Affairs", "Revision")
+print(type(subs))
 print(subs)
 print(len(subs))
 print(subs[0])
@@ -50,7 +53,7 @@ else:
 
 #Final Report
 print(f"Student: {name}")
-print(f"Day: {day_num}")
+print(f"Day: {day}")
 print(f"Study Hourse: {stud_hours}")
 print(subs_list)
 print(f"Number of Subjects: {len(subs_list)}")
