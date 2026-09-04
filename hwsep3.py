@@ -1,5 +1,5 @@
 name = input("Name:")
-dayNumber = int(input("Day Number:"))
+dayNumber = int(input("Day Number 1 to 7:"))
 hoursOfStudy = int(input("Hours of Study:"))
 
 match dayNumber:
@@ -24,10 +24,13 @@ print("subjects are: ", subjects)
 print("First Subject is: ", subjects[0])
 print("Last Subject is: ", subjects[-1])
 print("Number of Subjects are: ", len(subjects))
+print(type(subjects))
 
 subjects = list(subjects)
 subjects[-1] = "Practice Questions"
 print("Updated Subjects are: ", subjects)
+print(type(subjects))
+
 
 if hoursOfStudy >= 5:
     studyTarget = "Excellent"
