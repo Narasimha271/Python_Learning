@@ -4,7 +4,7 @@ test = "This is a test for Membershop operators"
 AgeA = 4233
 AgeB = 3233
 
-#If condition syntax is    if {condition}:
+# #If condition syntax is    if {condition}:
 if AgeA > AgeB: 
     print('Age of A is greater than Age of B')
 if AgeA > AgeB:
