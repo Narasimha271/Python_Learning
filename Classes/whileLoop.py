@@ -5,3 +5,5 @@ while textByUser.lower() != 'exit':
     textByUser = input('please give Next word, you want to print in upper: ')
 else:
     print('Thanks!')
+
+
